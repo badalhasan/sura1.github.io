@@ -1,0 +1,36 @@
+body{
+  background-image: url(image/bg.png) ;
+}
+
+button{
+  margin: 10px;
+  background: #FF597B;
+  color: #EEEEEE;
+  padding: 20px;
+  font-size: larger;
+  border: var(--border);
+  border-radius: 20px;
+  border-bottom: 8px solid var(--text-clr);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:active {
+  border-bottom: var(--border);
+  transform: translateY(5px);
+}
+
+button:hover {
+  background: #F56EB3;
+}
+
+
+.btn{
+ 
+  margin:100px auto ;
+  margin-left: 300px;
+  
+  
+}
+
+
